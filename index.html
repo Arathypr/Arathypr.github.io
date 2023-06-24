@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Nike</title>
+</head>
+<body>
+  <!--header-->
+  <header>
+    <div id="menu-bar" class=" fa fa-bars"></div>
+    <a href="#" class="logo"><img src="./img/logo.png" alt=""></a>
+    <nav class="navbar">
+        <a href="men.html">men</a>
+        <a href="men.html">woman</a>
+        <a href="men.html">Latest</a>
+        <a href="men.html">Blog</a>
+        <a href="men.html">contact</a>
+    </nav>
+    <div class="icons">
+        <a href="#"><i class="fas fa-search" id="search-icon"></i></a>
+        <div class="search-box container">
+          <input type="search" name="" id="" placeholder="Search here...">
+      </div>
+        <a href="#"><i class="fa fa-shopping-cart"></i></a>
+        <button class='loginbtn' onclick="document.getElementById('login-form').style.display='block'" style="width:auto;"><i class="fas fa-user"></i></button>
+        
+    </div>
+</header>
+  <!--close header-->
+<!--login-->
+<div id='login-form'class='login-page'>
+  <div class="form-box">
+      <div class='button-box'>
+          <div id='btn'></div>
+          <button type='button'onclick='login()'class='toggle-btn'>Log In</button>
+          <button type='button'onclick='register()'class='toggle-btn'>Register</button>
+      </div>
+      <form id='login' class='input-group-login'>
+          <input type='text'class='input-field'placeholder='Email Id' required >
+<input type='password'class='input-field'placeholder='Enter Password' required>
+<input type='checkbox'class='check-box'><span>Remember Password</span>
+<button type='submit'class='submit-btn'>Log in</button>
+</form>
+<form id='register' class='input-group-register'>
+<input type='text'class='input-field'placeholder='First Name' required>
+<input type='text'class='input-field'placeholder='Last Name ' required>
+<input type='email'class='input-field'placeholder='Email Id' required>
+<input type='password'class='input-field'placeholder='Enter Password' required>
+<input type='password'class='input-field'placeholder='Confirm Password'  required>
+<input type='checkbox'class='check-box'><span>I agree to the terms and conditions</span>
+          <button type='submit'class='submit-btn'>Register</button>
+ </form>
+  </div>
+</div>
+
+  <!--close login-->
+  <!--home-->
+  <section class="home" id="home">
+    
+     <div id="slider" class="slider">
+  
+      <!-- SLIDE 1 -->
+      <div class="row fullheight slide">
+        <div class="col-6 fullheight">
+          <div class="nike">
+          <!-- PRODUCT INFO -->
+          <div class="product-info">
+            <div class="info-wrapper">
+              <div class="product-name left-to-right">
+                <h2>
+                  <span style="color: antiquewhite;">Airmax</span><span style="color: #629f2a;">270</span>
+                </h2>
+                <h5>react</h5>
+                <span style="color: antiquewhite; font-size: 3rem;">$270</span>
+              </div>
+              <div class="product-color left-to-right">
+                <div style="padding-top:2rem ;">
+                  <h5>Colors</h5>
+                </div>
+                <div class="color-wrapper">
+                  <div class="active">
+                    <div class="bg-red"></div>
+                  </div>
+                  <div class="">
+                    <div class="bg-blue"></div>
+                  </div>
+                  <div class="">
+                    <div class="bg-white"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-size left-to-right">
+                <h5>SIZE</h5>
+                <div class="size-wrapper">
+                  <div>36</div>
+                  <div class="active">37</div>
+                  <div>38</div>
+                  <div>39</div>
+                  <div>40</div>
+                </div>
+              </div>
+              <div class="button left-to-right">
+                <button>
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT INFO -->
+        </div>
+      </div>
+        <div class="col-6 fullheight img-col" style="background-image: linear-gradient(to top right, #6b6d68, #629f2a)">
+          <!-- PRODUCT IMAGE -->
+          <div class="product-img">
+            <div class="img-wrapper right-to-left">
+              <div class="bounce">
+                <img src="./img/assets/zoom-fly-3-mens-running-shoe-XhzpPH.png" alt="placeholder+image">
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT IMAGE -->
+          
+          <!-- PRODUCT MORE IMAGES -->
+          <div class="more-images">
+            <div class="more-images-item bottom-up">
+              <img src="./img/assets/zoom-fly-3-mens-running-shoe-XhzpPH.jpg" alt="placeholder+image">
+            </div>
+            <div class="more-images-item bottom-up">
+              <img src="./img/assets/zoom-fly-3-mens-running-shoe-XhzpPH (1).jpg" alt="placeholder+image">
+            </div>
+            <div class="more-images-item bottom-up">
+              <img src="./img/assets/zoom-fly-3-mens-running-shoe-XhzpPH (2).jpg" alt="placeholder+image">
+            </div>
+
+          </div>
+          <!-- ENDPRODUCT MORE IMAGES -->
+        </div>
+      </div>
+      <!-- END SLIDE 1 -->
+       <!-- SLIDE 2 -->
+       <div class="row fullheight slide">
+        <div class="col-6 fullheight">
+          <div class="nike">
+          <!-- PRODUCT INFO -->
+          <div class="product-info">
+            <div class="info-wrapper">
+              <div class="product-name left-to-right">
+                <h2>
+                  <span style="color: antiquewhite;">Airmax</span><span style="color: gray;">270</span>
+                </h2>
+                <h5>react</h5>
+                <span style="color: antiquewhite; font-size: 3rem;">$270</span>
+              </div>
+              <div class="product-color left-to-right">
+                <div style="padding-top:2rem ;">
+                  <h5>Colors</h5>
+                </div>
+                <div class="color-wrapper">
+                  <div class="active">
+                    <div class="bg-red"></div>
+                  </div>
+                  <div class="">
+                    <div class="bg-blue"></div>
+                  </div>
+                  <div class="">
+                    <div class="bg-white"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-size left-to-right">
+                <h5>SIZE</h5>
+                <div class="size-wrapper">
+                  <div>36</div>
+                  <div class="active">37</div>
+                  <div>38</div>
+                  <div>39</div>
+                  <div>40</div>
+                </div>
+              </div>
+              <div class="button left-to-right">
+                <button>
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT INFO -->
+        </div>
+      </div>
+        <div class="col-6 fullheight img-col" style="background-image: linear-gradient(to top right, #6b6d68, #171617)">
+          <!-- PRODUCT IMAGE -->
+          <div class="product-img">
+            <div class="img-wrapper right-to-left">
+              <div class="bounce">
+                <img src="./img/assets/air-max-alpha-tr-3-mens-training-shoe-0C1CV7.png" alt="placeholder+image">
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT IMAGE -->
+          
+          <!-- PRODUCT MORE IMAGES -->
+          <div class="more-images">
+            <div class="more-images-item bottom-up">
+              <img src="img/assets/air-max-alpha-tr-3-mens-training-shoe-0C1CV7.jpg" alt="placeholder+image">
+            </div>
+            <div class="more-images-item bottom-up">
+              <img src="img/assets/air-max-alpha-tr-3-mens-training-shoe-0C1CV7 (1).jpg" alt="placeholder+image">
+            </div>
+            <div class="more-images-item bottom-up">
+              <img src="img/assets/air-max-alpha-tr-3-mens-training-shoe-0C1CV7 (2).jpg" alt="placeholder+image">
+            </div>
+
+          </div>
+          <!-- ENDPRODUCT MORE IMAGES -->
+        </div>
+      </div>
+      <!-- END SLIDE 2 -->
+      <!-- SLIDE 3 -->
+      <div class="row fullheight slide">
+        <div class="col-6 fullheight">
+          <div class="nike">
+          <!-- PRODUCT INFO -->
+          <div class="product-info">
+            <div class="info-wrapper">
+              <div class="product-name left-to-right">
+                <h2>
+                  <span style="color: antiquewhite;">react</span><span style="color:#32519a;">infinity</span>
+                </h2>
+                <h5>run flyknit</h5>
+                <span style="color: antiquewhite; font-size: 3rem;">$270</span>
+              </div>
+              <div class="product-color left-to-right">
+                <div style="padding-top:2rem ;">
+                  <h5>Colors</h5>
+                </div>
+                <div class="color-wrapper">
+                  <div class="active">
+                    <div class="bg-red"></div>
+                  </div>
+                  <div class="">
+                    <div class="bg-blue"></div>
+                  </div>
+                  <div class="">
+                    <div class="bg-white"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="product-size left-to-right">
+                <h5>SIZE</h5>
+                <div class="size-wrapper">
+                  <div>36</div>
+                  <div class="active">37</div>
+                  <div>38</div>
+                  <div>39</div>
+                  <div>40</div>
+                </div>
+              </div>
+              <div class="button left-to-right">
+                <button>
+                  Buy
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT INFO -->
+        </div>
+      </div>
+        <div class="col-6 fullheight img-col" style="background-image: linear-gradient(to top right, #32519a, #4967af )">
+          <!-- PRODUCT IMAGE -->
+          <div class="product-img">
+            <div class="img-wrapper right-to-left">
+              <div class="bounce">
+                <img src="img/assets/air-zoom-superrep-mens-hiit-class-shoe-ZWLnJW (1).png" alt="placeholder+image">
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT IMAGE -->
+          
+          <!-- PRODUCT MORE IMAGES -->
+          <div class="more-images">
+            <div class="more-images-item bottom-up">
+              <img src="img/assets/air-zoom-superrep-mens-hiit-class-shoe-ZWLnJW.jpg" alt="placeholder+image">
+            </div>
+            <div class="more-images-item bottom-up">
+              <img src="img/assets/air-zoom-superrep-mens-hiit-class-shoe-ZWLnJW (3).jpg" alt="placeholder+image">
+            </div>
+            <div class="more-images-item bottom-up">
+              <img src="img/assets/air-zoom-superrep-mens-hiit-class-shoe-ZWLnJW (2).jpg" alt="placeholder+image">
+            </div>
+
+          </div>
+          <!-- ENDPRODUCT MORE IMAGES -->
+        </div>
+      </div>
+      <!-- END SLIDE 3 -->
+       
+    
+      <!-- SLIDE CONTROL -->
+      <div id="slide-control" class="slide-control">
+        <div class="slide-control-item">
+          <img src="./img/assets/zoom-fly-3-mens-running-shoe-XhzpPH.png" alt="placeholder+image">
+        </div>
+        <div class="slide-control-item">
+          <img src="./img/assets/air-max-alpha-tr-3-mens-training-shoe-0C1CV7.png" alt="placeholder+image">
+        </div>
+        <div class="slide-control-item">
+          <img src="./img/assets/air-zoom-superrep-mens-hiit-class-shoe-ZWLnJW (1).png" alt="placeholder+image">
+        </div>
+      </div>
+      <!-- END SLIDE CONTROL -->
+    
+  </div>
+    <!-- END MAIN -->
+    
+</section>
+  <!--home-close-->
+
+  <script src="./js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>
